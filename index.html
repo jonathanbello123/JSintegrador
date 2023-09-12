@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulse Gym</title>
+    <link rel="shortcut icon" href="/Assets/favicon/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <a href="" target=" _blank"><img src="/Assets/wpp/whatsapp.png" alt="" class="whatsapp"></a>
+    <header>
+        <a href="index.html">
+            <img id="img-logo" src="/Assets/favicon/Favicon.png" alt=""></a>
+        <nav id="navbar-link">
+
+            <ul class="nav-list">
+                <a href="#Portada">
+                    <li class="navli">Home</li>
+                </a>
+                <a href="#products">
+
+                    <li class="navli">Planes</li>
+                </a>
+                <a href="#about-us">
+                    <li class="navli">Sobre nosotros</li>
+                </a>
+                <a href="#contacto">
+                    <li class="navli">Contacto</li>
+                </a>
+
+                <a href="iniciar.html">
+                    <li class="navli"> Iniciar</li>
+                </a>
+
+
+            </ul>
+
+
+
+
+            <div class="cart">
+
+                <h2>Tus Productos</h2>
+
+
+                <div class="cart-container">
+
+
+                </div>
+
+                <span class="divider"></span>
+
+                <div class="cart-total">
+                    <p>Total:</p>
+                    <span class="total">18.3 ETH</span>
+                </div>
+                <button class="btn-buy">Comprar</button>
+                <button class="btn-delete">Vaciar carrito</button>
+            </div>
+
+            <div class="overlay"></div>
+
+        </nav>
+        <div class="menu-carrito">
+            <div class="cart-label">
+
+                <div class="cart-icon">
+                    <img class="carrito" src="Assets/nav/carrito.png" alt="Carrito de compras">
+
+                </div>
+                <div class="cart-bubble">0</div>
+            </div>
+            <div class="menu-label">
+                <img src="/Assets/nav/menu.png" alt="" class=" menu-icon" />
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="Portada">
+            <div class="container-portada">
+                <div id="text-content">
+
+                    <h1 class="span-text">Empodera tu cuerpo inspira tu mente: ¡Bienvenido a un nuevo nivel en Pulse
+                    </h1>
+                    <h2 class="tittle-gym">GYM!</h2>
+                    </span>
+                    <div class="botones">
+                        <a class="btn-ri" href="register.html">Empezar</a>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="products">
+            <h2 class="tittle-products">Productos</h2>
+            <div class="categories">
+                <button class="category active">Todas</button>
+                <button class="category" data-category="Musculacion">Musculacion</button>
+                <button class="category" data-category="Funcional">Funcional</button>
+                <button class="category" data-category="Personalizados">Personalizados</button>
+            </div>
+
+            <div class="card-container">
+
+            </div>
+            <button class="btn-load">Ver mas</button>
+
+        </section>
+        <section id="about-us">
+            <div class="container-about">
+                <h2 class="tittle-about">¿Quienes somos?</h2>
+                <p class="p-about">Somos Pulse <span class="span-about"> Gym</span>
+                    no somos solo un gimnasio; somos una comunidad comprometida con tu bienestar y tu éxito en el
+                    camino hacia un estilo de vida más saludable. Nuestra pasión por el fitness y la transformación
+                    personal
+                    nos
+                    impulsa a ofrecer mucho más que simples entrenamientos. Aquí encontrarás un espacio donde la
+                    energía, la
+                    motivación y el apoyo se combinan para impulsarte hacia tus metas.</p>
+                <p class="secondp">
+                    Nuestra misión es clara: inspirar y guiar a individuos de todas las edades y niveles de condición
+                    física
+                    en
+                    su viaje hacia una versión más fuerte y saludable de sí mismos.
+
+
+                </p>
+                <div class="carrusel">
+                    <div class="carrusel-container">
+                        <div><img class="carrusel-img" src="/Assets/carrusel/galeria1.png" alt="" srcset=""></div>
+                        <div><img class="carrusel-img" src="/Assets//carrusel/galeria2.png" alt=""></div>
+                        <div><img class="carrusel-img" src="/Assets/carrusel/galeria3.png" alt="" srcset=""></div>
+
+                    </div>
+                    <div class="container-btnPro2">
+                        <a class="btn-card2" href="">Empezar YA</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section id="contacto">
+            <span class="h2_con"> Dejanos contactarte!</span>
+            <h3 class="h3_con">Escribinos tus datos para que nosotros podamos comunicarnos con vos y asi ayudarte 😉
+            </h3>
+            <div class="formulario">
+
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required><br>
+
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="">Observaciones:</label>
+                    <textarea name="" id="" cols="15" rows="2"></textarea>
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+
+        </section>
+        <footer id="footer">
+            <div class="logo-footer"></div>
+            <img class="favicon-footer" src="/Assets/favicon/Favicon.png" alt="logo-footer" class="logo-f3">
+            <span class="span-footer">2023 Copyrigth:PulseGym.com</span>
+
+        </footer>
+    </main>
+    <div class="add-modal"></div>
+    <script src="/JS/data.js"></script>
+    <script src="/JS/index.js"></script>
+</body>
+
+
+</html>
